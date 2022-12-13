@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-18T12:59:36.580Z",
+    "end": "2022-10-18T12:59:54.086Z",
+    "duration": 7185,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c59deaa5-0cdf-4ca2-bfed-78f0bc991386",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test.cy.js",
+      "file": "cypress\\e2e\\test.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b0b7c9f-b084-4894-b79a-9ec1cd2343d3",
+          "title": "empty spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "empty spec passes",
+              "timedOut": null,
+              "duration": 5317,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://rezultati.com');",
+              "err": {},
+              "uuid": "ed2ef126-0310-48c2-9de9-bbe77a6b24ba",
+              "parentUUID": "3b0b7c9f-b084-4894-b79a-9ec1cd2343d3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ed2ef126-0310-48c2-9de9-bbe77a6b24ba"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5317,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e7d25d6c-1ccb-43cb-bb32-dee440028193",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec.cy.js",
+      "file": "cypress\\e2e\\spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b3a2e456-293e-4212-8a50-87b5f0f17dd0",
+          "title": "empty spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "empty spec passes",
+              "timedOut": null,
+              "duration": 428,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "235717a9-3bbf-4cc9-a9ea-a469e5707fa1",
+              "parentUUID": "b3a2e456-293e-4212-8a50-87b5f0f17dd0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test",
+              "fullTitle": "empty spec test",
+              "timedOut": null,
+              "duration": 1440,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://google.com');",
+              "err": {},
+              "uuid": "7d0e8693-d938-4080-944d-ceb7001f5c8a",
+              "parentUUID": "b3a2e456-293e-4212-8a50-87b5f0f17dd0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "235717a9-3bbf-4cc9-a9ea-a469e5707fa1",
+            "7d0e8693-d938-4080-944d-ceb7001f5c8a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1868,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": "true",
+        "overwrite": "false",
+        "html": "false",
+        "json": "true",
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

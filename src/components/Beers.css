@@ -1,0 +1,58 @@
+#beers-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/3605692.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+#beer-card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 15vw;
+  height: fit-content;
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.097);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.2px);
+  -webkit-backdrop-filter: blur(12.2px);
+  cursor: pointer;
+  box-shadow: 5px 23px 31px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 23px 31px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 23px 31px rgba(0, 0, 0, 0.5);
+  border: 10px solid transparent;
+  transition: all 0.5s;
+  animation: mount 1 1s;
+}
+
+#beer-card-img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#beer-card:hover {
+  position: relative;
+  z-index: 2;
+  box-shadow: none;
+  border: 10px double gray;
+}
+
+@keyframes mount {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

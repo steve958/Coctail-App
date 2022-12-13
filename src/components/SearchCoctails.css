@@ -1,0 +1,98 @@
+#search-coctails-container {
+  height: 20vh;
+  width: 20vw;
+  background: rgba(255, 255, 255, 0.097);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.2px);
+  -webkit-backdrop-filter: blur(12.2px);
+  margin: 1rem;
+  cursor: pointer;
+  flex-grow: 0;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+#search-coctails-container:hover {
+  border: 2px solid #0374e4;
+  border-radius: 30px;
+  transition: all 1s;
+}
+
+#beers-hover {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 30px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 1s;
+}
+
+#beers-hover:hover {
+  filter: none;
+  transition: all 1s;
+}
+
+#coctails-hover {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 30px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 1s;
+}
+
+#coctails-hover:hover {
+  filter: none;
+  transition: all 1s;
+}
+
+#shots-hover {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 30px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 1s;
+}
+
+#shots-hover:hover {
+  filter: none;
+  transition: all 1s;
+}
+
+#ingredients-hover {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 30px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 1s;
+}
+
+#ingredients-hover:hover {
+  filter: none;
+  transition: all 1s;
+}
+
+
+
+#headline-wrapper p,
+h1,
+h4 {
+  margin: 0;
+}
+
+#headline-wrapper p {
+  color: rgb(98, 2, 98);
+}

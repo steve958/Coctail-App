@@ -1,0 +1,10 @@
+#dog-shake-container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dog-shake-container iframe {
+  border-radius: 50%;
+}

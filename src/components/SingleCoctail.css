@@ -1,0 +1,88 @@
+#single-coctail {
+  width: 50vw;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.097);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#single-coctail img {
+  width: 30vw;
+  height: auto;
+  border-radius: 16px;
+}
+
+#single-coctail h2 {
+  padding: 10px;
+  margin: 5px;
+}
+
+#single-coctail h3 {
+  margin: 0;
+}
+
+#single-coctail .beers:nth-child(3) {
+  color: black;
+  letter-spacing: 10px;
+}
+#single-coctail .beers:nth-child(5) {
+  color: black;
+  letter-spacing: 10px;
+}
+
+#single-coctail .beers:last-child {
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  background-color: black;
+  color: white;
+}
+
+#single-coctail .coctails:nth-child(3) {
+  color: rgb(0 57 118);
+  letter-spacing: 10px;
+}
+#single-coctail .coctails:nth-child(5) {
+  color: rgb(0 57 118);
+  letter-spacing: 10px;
+}
+
+#single-coctail .coctails:last-child {
+  text-align: center;
+  background-color: rgb(0 57 118);
+  width: 90%;
+  font-size: 20px;
+  color: white;
+}
+
+#single-coctail .coctails {
+  color: white;
+}
+
+#single-coctail .shots:last-child {
+  text-align: center;
+  background-color: orangered;
+  width: 90%;
+  font-size: 20px;
+  color: white;
+}
+
+#single-coctail .shots {
+  color: white;
+}
+
+#single-coctail .shots:nth-child(3) {
+  color: orangered;
+  letter-spacing: 10px;
+}
+
+#single-coctail .shots:nth-child(5) {
+  color: orangered;
+  letter-spacing: 10px;
+}
